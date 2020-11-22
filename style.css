@@ -86,11 +86,31 @@ nav {
     align-items: center;
 }
 
-.wave{
-    z-index: -2;
+.wave1{
     position: absolute;
-    top: 50%;
-    left: -2.5%;
-    padding: 0rem 0rem;
-    width: 97%;
+    width: 1470px;
+    height: 627px;
+    left: -30px;
+    top: 330px;
+    background: #BAC3C9;
+}
+
+.wave2{
+    position: absolute;
+    width: 1470px;
+    height: 627px;
+    left: -15px;
+    top: 392px;
+    background: #BAC3C9;
+    mix-blend-mode: hard-light;
+    opacity: 0.4;
+}
+
+.wave3{
+    position: absolute;
+    width: 1470px;
+    height: 627px;
+    left: -30px;
+    top: 330px;
+    background: #BAC3C9;
 }
